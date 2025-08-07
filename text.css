@@ -1,0 +1,38 @@
+h1{
+ font-size:40px;color:blue;text-align:center;
+}
+div{
+    text-align:center;
+}
+input{
+    width:50%;height: 35px;
+}
+
+.checked {
+    text-decoration: line-through;
+    /*javascriptのtoggleで使う*/
+  }
+
+ul{
+    /*list-styleは黒丸を消す
+    　こっちにborderをつけるとボックスに線が入る。*/
+    list-style-type: none;
+    margin: 0 auto;
+    width: 50%;
+    padding: 0;
+    background-color: lightgray;
+    text-align: left;
+    text-indent: 1em;
+    font-size:22px;
+    
+}
+ul li{
+/*border-bottomはタスクに枠線をつける*/
+    border-left: 1px solid #000000;
+    border-right: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+    height:35px;
+    margin: 0;
+    padding: 0;
+    
+}
