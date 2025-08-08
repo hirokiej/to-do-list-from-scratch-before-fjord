@@ -1,32 +1,34 @@
 <!DOCTYPE html>
 <html lang="ja">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>今日のTo DO</title>
-    <link rel="stylesheet" href="text.css">
-</head>
-<body>
+    <link rel="stylesheet" href="text.css" />
+  </head>
+  <body>
     <div>
-    <h1>TO DO Today</h1>
-    <div class="morning">
-        おはようございます！<br>
-        今日も1日がんばりましょう～！ <br>
-        左クリックでタスク終了、右クリックで取り消しです！<br>
-        更新を押すと全部消えるよ！<br>
-        やるのかい？やらないのかい？どっちなんだい！！<br>
-        やーーーーーーーる！！！！<br>
+      <h1>TO DO Today</h1>
+      <div class="morning">
+        おはようございます！<br />
+        今日も1日がんばりましょう～！ <br />
+        左クリックでタスク終了、右クリックで取り消しです！<br />
+        更新を押すと全部消えるよ！<br />
+        やるのかい？やらないのかい？どっちなんだい！！<br />
+        やーーーーーーーる！！！！<br />
         パワーーーーーー！！！！！！
-
+      </div>
+      <form style:none; id="form">
+        <input
+          type="text"
+          id="input"
+          placeholder="TODOを入力"
+          autocomplete="off"
+        />
+      </form>
+      <ul id="ul"></ul>
     </div>
-    <form style:none; id="form">
-        <input type="text" id="input" placeholder="TODOを入力" autocomplete="off">
-    </form>
-    <ul id="ul">
-        
-    </ul>
-    </div>
-    <script src="index.js">   </script>
-</body>
+    <script src="index.js"></script>
+  </body>
 </html>
