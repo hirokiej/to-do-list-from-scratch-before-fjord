@@ -56,10 +56,10 @@ function saveData() {
   const todos = [];
 
   lists.forEach((li) => {
-    todos.push = {
+    todos.push({
       text: li.innerText,
       completed: li.classList.contains("checked"),
-    };
+    });
   });
 
   /*↑要復習 */
